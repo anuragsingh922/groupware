@@ -56,8 +56,8 @@ const DeveloperSection = () => {
             value={activeTab}
             onValueChange={setActiveTab}
           >
-            <div className="flex justify-center mb-8 overflow-x-auto pb-2 scrollbar-none">
-              <TabsList className="grid grid-cols-2 md:grid-cols-4 gap-1">
+            <div className="flex justify-center mb-8 overflow-x-auto pb-10 scrollbar-none">
+              <TabsList className="grid grid-cols-2 md:grid-cols-4 gap-3">
                 <TabsTrigger
                   value="profile"
                   onClick={() => setActiveTab("profile")}

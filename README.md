@@ -9,35 +9,40 @@ User Sync is a comprehensive React application for user management that provides
 **Anurag Singh** is a Full-Stack Developer passionate about creating efficient and user-friendly web applications. With expertise in the MERN stack and a strong background in software development, Anurag has developed User Sync as a demonstration of modern web development techniques.
 
 Key Developer Highlights:
+
 - 🎓 Computer Science Engineering student at Indian Institute of Information Technology Sonepat
 - 💻 Experienced in React, Node.js, and full-stack development
 - 🚀 Creator of innovative projects like VocRT and Trekigo
 - 🏆 LeetCode problem solver with 450+ DSA questions solved
 
 Connect with Anurag:
+
 - LinkedIn: [Anurag Singh](https://linkedin.com/in/anuragsingh922)
 - GitHub: [anuragsingh922](https://github.com/anuragsingh922)
 - Personal Website: [Portfolio](https://anuragsingh922.vercel.app/)
 
 ## Live Demo
 
-[View Live Demo](https://)
+[View Live Demo](https://groupware-orpin.vercel.app/)
 
 ## Features
 
 - **Secure Authentication**
+
   - Email/password login with validation
   - JWT token-based authentication
   - Persistent sessions with local storage
   - Protected routes for authenticated users
 
 - **User Management**
+
   - View paginated list of users with avatars and details
   - Edit user information (first name, last name, email)
   - Delete users with confirmation dialog
   - Search functionality to filter users
 
 - **Responsive UI**
+
   - Mobile-first approach with Tailwind CSS
   - Clean, modern interface using shadcn/ui components
   - Smooth animations and transitions
@@ -54,13 +59,13 @@ Connect with Anurag:
 
 The application integrates with the [ReqRes](https://reqres.in/) API, which provides a realistic simulation of a user management backend. The following endpoints are used:
 
-| Endpoint | Method | Description |
-|----------|--------|-------------|
-| `/api/login` | POST | User authentication |
-| `/api/users?page=N` | GET | Retrieve paginated user list |
-| `/api/users/{id}` | GET | Get single user details |
-| `/api/users/{id}` | PUT | Update user information |
-| `/api/users/{id}` | DELETE | Remove a user |
+| Endpoint            | Method | Description                  |
+| ------------------- | ------ | ---------------------------- |
+| `/api/login`        | POST   | User authentication          |
+| `/api/users?page=N` | GET    | Retrieve paginated user list |
+| `/api/users/{id}`   | GET    | Get single user details      |
+| `/api/users/{id}`   | PUT    | Update user information      |
+| `/api/users/{id}`   | DELETE | Remove a user                |
 
 ## Project Structure
 
@@ -87,12 +92,14 @@ src/
 ### Installation
 
 1. Clone the repository:
+
    ```bash
-   git clone https://github.com/your-username/user-sync.git
-   cd user-sync
+   git clone https://github.com/anuragsingh922/groupware.git
+   cd groupware
    ```
 
 2. Install dependencies:
+
    ```bash
    npm install
    # or
@@ -100,6 +107,7 @@ src/
    ```
 
 3. Start the development server:
+
    ```bash
    npm run dev
    # or

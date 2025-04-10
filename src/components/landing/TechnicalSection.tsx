@@ -40,7 +40,7 @@ const TechnicalSection = () => {
           value={activeTab}
           onValueChange={setActiveTab}
         >
-          <div className="flex justify-center mb-8">
+          <div className="flex justify-center mb-8 pb-10">
             <TabsList className="grid grid-cols-1 md:grid-cols-3 w-full max-w-md">
               <TabsTrigger
                 value="architecture"
